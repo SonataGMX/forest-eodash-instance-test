@@ -41,7 +41,7 @@ export default createEodash({
         id: Symbol(),
         type: "internal",
         title: "Indicators",
-        layout: { x: 0, y: 0, w: 2.5, h: 8 },
+        layout: { x: 0, y: 0, w: 3, h: 8 },
         widget: {
           name: "EodashItemFilter",
           properties: {
@@ -65,7 +65,7 @@ export default createEodash({
             ? {
                 id: "Information",
                 title: "Information",
-                layout: { x: 9, y: 0, w: 3, h: 12 },
+                layout: { x: 9, y: 0, w: 2.5, h: 12 },
                 type: "web-component",
                 widget: {
                   link: async () => await import("@eox/stacinfo"),
